@@ -1,5 +1,6 @@
 target 'PracticeCollectionView' do
-
-pod 'Masonry'
-
+    
+    pod 'Masonry'
+    pod 'SDWebImage'
+    
 end

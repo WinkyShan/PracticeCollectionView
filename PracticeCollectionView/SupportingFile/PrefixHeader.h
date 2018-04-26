@@ -9,7 +9,11 @@
 #ifndef PrefixHeader_h
 #define PrefixHeader_h
 
-#import "WSViewController.h"
+
+    #import "WSViewController.h"
+    #import "Masonry.h"
+    #import "UIImageView+WebCache.h"
+
 
 
 #endif /* PrefixHeader_h */

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "RootViewController.h"
+#import "WSRootViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +20,7 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    RootViewController *rootController = [[RootViewController alloc]init];
+    WSRootViewController *rootController = [[WSRootViewController alloc]init];
     UINavigationController *naviController = [[UINavigationController alloc] initWithRootViewController:rootController];
     self.window.rootViewController = naviController;
     [self.window makeKeyAndVisible];

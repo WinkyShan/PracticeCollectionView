@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12E6CE09209179BC00AC88E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE08209179BC00AC88E2 /* AppDelegate.m */; };
-		12E6CE0C209179BC00AC88E2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE0B209179BC00AC88E2 /* RootViewController.m */; };
+		12E6CE0C209179BC00AC88E2 /* WSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE0B209179BC00AC88E2 /* WSRootViewController.m */; };
 		12E6CE0F209179BC00AC88E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E6CE0D209179BC00AC88E2 /* Main.storyboard */; };
 		12E6CE11209179BD00AC88E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E6CE10209179BD00AC88E2 /* Assets.xcassets */; };
 		12E6CE14209179BD00AC88E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E6CE12209179BD00AC88E2 /* LaunchScreen.storyboard */; };
@@ -17,6 +17,12 @@
 		12E6CE2C209179BD00AC88E2 /* PracticeCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE2B209179BD00AC88E2 /* PracticeCollectionViewUITests.m */; };
 		12E6CE3C20917CB900AC88E2 /* WSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE3B20917CB900AC88E2 /* WSViewController.m */; };
 		12E6CE4020917E8C00AC88E2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12E6CE3F20917E8C00AC88E2 /* Info.plist */; };
+		12E6CE442091984A00AC88E2 /* WSWaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE432091984A00AC88E2 /* WSWaterFallViewController.m */; };
+		12E6CE4A20919B7A00AC88E2 /* WSWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE4620919B7900AC88E2 /* WSWaterFallLayout.m */; };
+		12E6CE4B20919B7A00AC88E2 /* WSCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E6CE4720919B7900AC88E2 /* WSCollectionViewCell.xib */; };
+		12E6CE4C20919B7A00AC88E2 /* WSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE4920919B7900AC88E2 /* WSCollectionViewCell.m */; };
+		12E6CE4E20919C5900AC88E2 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12E6CE4D20919C5900AC88E2 /* 1.plist */; };
+		12E6CE5120919C7500AC88E2 /* WSGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE4F20919C7500AC88E2 /* WSGoods.m */; };
 		FD56CBCFDEA68B2918B31231 /* libPods-PracticeCollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A46A042CA97CA1B364696E /* libPods-PracticeCollectionView.a */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +47,8 @@
 		12E6CE04209179BC00AC88E2 /* PracticeCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E6CE07209179BC00AC88E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12E6CE08209179BC00AC88E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		12E6CE0A209179BC00AC88E2 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		12E6CE0B209179BC00AC88E2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		12E6CE0A209179BC00AC88E2 /* WSRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSRootViewController.h; sourceTree = "<group>"; };
+		12E6CE0B209179BC00AC88E2 /* WSRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSRootViewController.m; sourceTree = "<group>"; };
 		12E6CE0E209179BC00AC88E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12E6CE10209179BD00AC88E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12E6CE13209179BD00AC88E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +63,16 @@
 		12E6CE3B20917CB900AC88E2 /* WSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSViewController.m; sourceTree = "<group>"; };
 		12E6CE3E20917E2000AC88E2 /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
 		12E6CE3F20917E8C00AC88E2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E6CE422091984A00AC88E2 /* WSWaterFallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSWaterFallViewController.h; sourceTree = "<group>"; };
+		12E6CE432091984A00AC88E2 /* WSWaterFallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSWaterFallViewController.m; sourceTree = "<group>"; };
+		12E6CE4520919B7900AC88E2 /* WSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCollectionViewCell.h; sourceTree = "<group>"; };
+		12E6CE4620919B7900AC88E2 /* WSWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSWaterFallLayout.m; sourceTree = "<group>"; };
+		12E6CE4720919B7900AC88E2 /* WSCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSCollectionViewCell.xib; sourceTree = "<group>"; };
+		12E6CE4820919B7900AC88E2 /* WSWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSWaterFallLayout.h; sourceTree = "<group>"; };
+		12E6CE4920919B7900AC88E2 /* WSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCollectionViewCell.m; sourceTree = "<group>"; };
+		12E6CE4D20919C5900AC88E2 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		12E6CE4F20919C7500AC88E2 /* WSGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGoods.m; sourceTree = "<group>"; };
+		12E6CE5020919C7500AC88E2 /* WSGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGoods.h; sourceTree = "<group>"; };
 		380539D50ED89BCAFE180F33 /* Pods-PracticeCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-PracticeCollectionView/Pods-PracticeCollectionView.release.xcconfig"; sourceTree = "<group>"; };
 		F7A46A042CA97CA1B364696E /* libPods-PracticeCollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PracticeCollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D2D06433A16B025D8A8F80 /* Pods-PracticeCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PracticeCollectionView/Pods-PracticeCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +160,15 @@
 		12E6CE39209179D600AC88E2 /* WaterFall */ = {
 			isa = PBXGroup;
 			children = (
+				12E6CE422091984A00AC88E2 /* WSWaterFallViewController.h */,
+				12E6CE432091984A00AC88E2 /* WSWaterFallViewController.m */,
+				12E6CE4820919B7900AC88E2 /* WSWaterFallLayout.h */,
+				12E6CE4620919B7900AC88E2 /* WSWaterFallLayout.m */,
+				12E6CE4520919B7900AC88E2 /* WSCollectionViewCell.h */,
+				12E6CE4920919B7900AC88E2 /* WSCollectionViewCell.m */,
+				12E6CE4720919B7900AC88E2 /* WSCollectionViewCell.xib */,
+				12E6CE5020919C7500AC88E2 /* WSGoods.h */,
+				12E6CE4F20919C7500AC88E2 /* WSGoods.m */,
 			);
 			path = WaterFall;
 			sourceTree = "<group>";
@@ -156,6 +181,7 @@
 				12E6CE12209179BD00AC88E2 /* LaunchScreen.storyboard */,
 				12E6CE16209179BD00AC88E2 /* main.m */,
 				12E6CE3E20917E2000AC88E2 /* PrefixHeader.h */,
+				12E6CE4D20919C5900AC88E2 /* 1.plist */,
 			);
 			path = SupportingFile;
 			sourceTree = "<group>";
@@ -165,8 +191,8 @@
 			children = (
 				12E6CE3A20917CB900AC88E2 /* WSViewController.h */,
 				12E6CE3B20917CB900AC88E2 /* WSViewController.m */,
-				12E6CE0A209179BC00AC88E2 /* RootViewController.h */,
-				12E6CE0B209179BC00AC88E2 /* RootViewController.m */,
+				12E6CE0A209179BC00AC88E2 /* WSRootViewController.h */,
+				12E6CE0B209179BC00AC88E2 /* WSRootViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -292,10 +318,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E6CE4E20919C5900AC88E2 /* 1.plist in Resources */,
 				12E6CE4020917E8C00AC88E2 /* Info.plist in Resources */,
 				12E6CE14209179BD00AC88E2 /* LaunchScreen.storyboard in Resources */,
 				12E6CE11209179BD00AC88E2 /* Assets.xcassets in Resources */,
 				12E6CE0F209179BC00AC88E2 /* Main.storyboard in Resources */,
+				12E6CE4B20919B7A00AC88E2 /* WSCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,10 +369,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E6CE0C209179BC00AC88E2 /* RootViewController.m in Sources */,
+				12E6CE4A20919B7A00AC88E2 /* WSWaterFallLayout.m in Sources */,
+				12E6CE0C209179BC00AC88E2 /* WSRootViewController.m in Sources */,
 				12E6CE17209179BD00AC88E2 /* main.m in Sources */,
 				12E6CE3C20917CB900AC88E2 /* WSViewController.m in Sources */,
 				12E6CE09209179BC00AC88E2 /* AppDelegate.m in Sources */,
+				12E6CE4C20919B7A00AC88E2 /* WSCollectionViewCell.m in Sources */,
+				12E6CE5120919C7500AC88E2 /* WSGoods.m in Sources */,
+				12E6CE442091984A00AC88E2 /* WSWaterFallViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
