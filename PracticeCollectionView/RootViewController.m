@@ -1,22 +1,25 @@
 //
-//  ViewController.m
+//  RootViewController.m
 //  PracticeCollectionView
 //
 //  Created by wangshanshan on 2018/4/26.
 //  Copyright © 2018年 ws. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RootViewController.h"
 
-@interface ViewController ()
+@interface RootViewController ()
 
 @end
 
-@implementation ViewController
+@implementation RootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
 }
 
 

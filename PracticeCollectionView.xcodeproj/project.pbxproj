@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		12E6CE09209179BC00AC88E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE08209179BC00AC88E2 /* AppDelegate.m */; };
-		12E6CE0C209179BC00AC88E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE0B209179BC00AC88E2 /* ViewController.m */; };
+		12E6CE0C209179BC00AC88E2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE0B209179BC00AC88E2 /* RootViewController.m */; };
 		12E6CE0F209179BC00AC88E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E6CE0D209179BC00AC88E2 /* Main.storyboard */; };
 		12E6CE11209179BD00AC88E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E6CE10209179BD00AC88E2 /* Assets.xcassets */; };
 		12E6CE14209179BD00AC88E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E6CE12209179BD00AC88E2 /* LaunchScreen.storyboard */; };
 		12E6CE17209179BD00AC88E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE16209179BD00AC88E2 /* main.m */; };
 		12E6CE21209179BD00AC88E2 /* PracticeCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE20209179BD00AC88E2 /* PracticeCollectionViewTests.m */; };
 		12E6CE2C209179BD00AC88E2 /* PracticeCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE2B209179BD00AC88E2 /* PracticeCollectionViewUITests.m */; };
+		12E6CE3C20917CB900AC88E2 /* WSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E6CE3B20917CB900AC88E2 /* WSViewController.m */; };
+		12E6CE4020917E8C00AC88E2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12E6CE3F20917E8C00AC88E2 /* Info.plist */; };
+		FD56CBCFDEA68B2918B31231 /* libPods-PracticeCollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A46A042CA97CA1B364696E /* libPods-PracticeCollectionView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +41,11 @@
 		12E6CE04209179BC00AC88E2 /* PracticeCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E6CE07209179BC00AC88E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12E6CE08209179BC00AC88E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		12E6CE0A209179BC00AC88E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		12E6CE0B209179BC00AC88E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12E6CE0A209179BC00AC88E2 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		12E6CE0B209179BC00AC88E2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		12E6CE0E209179BC00AC88E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12E6CE10209179BD00AC88E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12E6CE13209179BD00AC88E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		12E6CE15209179BD00AC88E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12E6CE16209179BD00AC88E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		12E6CE1C209179BD00AC88E2 /* PracticeCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E6CE20209179BD00AC88E2 /* PracticeCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeCollectionViewTests.m; sourceTree = "<group>"; };
@@ -51,6 +53,13 @@
 		12E6CE27209179BD00AC88E2 /* PracticeCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E6CE2B209179BD00AC88E2 /* PracticeCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeCollectionViewUITests.m; sourceTree = "<group>"; };
 		12E6CE2D209179BD00AC88E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E6CE3A20917CB900AC88E2 /* WSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSViewController.h; sourceTree = "<group>"; };
+		12E6CE3B20917CB900AC88E2 /* WSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSViewController.m; sourceTree = "<group>"; };
+		12E6CE3E20917E2000AC88E2 /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		12E6CE3F20917E8C00AC88E2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380539D50ED89BCAFE180F33 /* Pods-PracticeCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-PracticeCollectionView/Pods-PracticeCollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		F7A46A042CA97CA1B364696E /* libPods-PracticeCollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PracticeCollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D2D06433A16B025D8A8F80 /* Pods-PracticeCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PracticeCollectionView/Pods-PracticeCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD56CBCFDEA68B2918B31231 /* libPods-PracticeCollectionView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,8 @@
 				12E6CE1F209179BD00AC88E2 /* PracticeCollectionViewTests */,
 				12E6CE2A209179BD00AC88E2 /* PracticeCollectionViewUITests */,
 				12E6CE05209179BC00AC88E2 /* Products */,
+				40D004E56771CD2B81CDE5A6 /* Pods */,
+				C40E316B5B885170A8D30F27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,13 +115,12 @@
 			children = (
 				12E6CE07209179BC00AC88E2 /* AppDelegate.h */,
 				12E6CE08209179BC00AC88E2 /* AppDelegate.m */,
-				12E6CE0A209179BC00AC88E2 /* ViewController.h */,
-				12E6CE0B209179BC00AC88E2 /* ViewController.m */,
-				12E6CE0D209179BC00AC88E2 /* Main.storyboard */,
-				12E6CE10209179BD00AC88E2 /* Assets.xcassets */,
-				12E6CE12209179BD00AC88E2 /* LaunchScreen.storyboard */,
-				12E6CE15209179BD00AC88E2 /* Info.plist */,
-				12E6CE16209179BD00AC88E2 /* main.m */,
+				12E6CE3A20917CB900AC88E2 /* WSViewController.h */,
+				12E6CE3B20917CB900AC88E2 /* WSViewController.m */,
+				12E6CE0A209179BC00AC88E2 /* RootViewController.h */,
+				12E6CE0B209179BC00AC88E2 /* RootViewController.m */,
+				12E6CE39209179D600AC88E2 /* WaterFall */,
+				12E6CE3D20917DC700AC88E2 /* SupportingFile */,
 			);
 			path = PracticeCollectionView;
 			sourceTree = "<group>";
@@ -132,6 +143,43 @@
 			path = PracticeCollectionViewUITests;
 			sourceTree = "<group>";
 		};
+		12E6CE39209179D600AC88E2 /* WaterFall */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WaterFall;
+			sourceTree = "<group>";
+		};
+		12E6CE3D20917DC700AC88E2 /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				12E6CE3F20917E8C00AC88E2 /* Info.plist */,
+				12E6CE0D209179BC00AC88E2 /* Main.storyboard */,
+				12E6CE10209179BD00AC88E2 /* Assets.xcassets */,
+				12E6CE12209179BD00AC88E2 /* LaunchScreen.storyboard */,
+				12E6CE16209179BD00AC88E2 /* main.m */,
+				12E6CE3E20917E2000AC88E2 /* PrefixHeader.h */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		40D004E56771CD2B81CDE5A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8D2D06433A16B025D8A8F80 /* Pods-PracticeCollectionView.debug.xcconfig */,
+				380539D50ED89BCAFE180F33 /* Pods-PracticeCollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C40E316B5B885170A8D30F27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7A46A042CA97CA1B364696E /* libPods-PracticeCollectionView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12E6CE30209179BD00AC88E2 /* Build configuration list for PBXNativeTarget "PracticeCollectionView" */;
 			buildPhases = (
+				EF73F17C738D47603B385690 /* [CP] Check Pods Manifest.lock */,
 				12E6CE00209179BC00AC88E2 /* Sources */,
 				12E6CE01209179BC00AC88E2 /* Frameworks */,
 				12E6CE02209179BC00AC88E2 /* Resources */,
@@ -235,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E6CE4020917E8C00AC88E2 /* Info.plist in Resources */,
 				12E6CE14209179BD00AC88E2 /* LaunchScreen.storyboard in Resources */,
 				12E6CE11209179BD00AC88E2 /* Assets.xcassets in Resources */,
 				12E6CE0F209179BC00AC88E2 /* Main.storyboard in Resources */,
@@ -257,13 +307,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EF73F17C738D47603B385690 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PracticeCollectionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12E6CE00209179BC00AC88E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E6CE0C209179BC00AC88E2 /* ViewController.m in Sources */,
+				12E6CE0C209179BC00AC88E2 /* RootViewController.m in Sources */,
 				12E6CE17209179BD00AC88E2 /* main.m in Sources */,
+				12E6CE3C20917CB900AC88E2 /* WSViewController.m in Sources */,
 				12E6CE09209179BC00AC88E2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +503,7 @@
 		};
 		12E6CE31209179BD00AC88E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D2D06433A16B025D8A8F80 /* Pods-PracticeCollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +520,7 @@
 		};
 		12E6CE32209179BD00AC88E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380539D50ED89BCAFE180F33 /* Pods-PracticeCollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

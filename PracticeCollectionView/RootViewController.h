@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  PracticeCollectionView
 //
 //  Created by wangshanshan on 2018/4/26.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RootViewController : UIViewController
 
 
 @end
