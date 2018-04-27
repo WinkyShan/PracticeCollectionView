@@ -26,6 +26,7 @@
     
     _dataArray = @[
                    @{@"className":@"WSWaterFallViewController",@"title":@"瀑布流"},
+                   @{@"className":@"WSHorizantalSlipViewController",@"title":@"水平滑动"},
                    ];
     
     [self setupTableView];
@@ -33,6 +34,7 @@
 }
 
 -(void)setupTableView{
+    
     UITableView *tableView = [[UITableView alloc]init];
     tableView.delegate = self;
     tableView.dataSource = self;
@@ -41,6 +43,7 @@
     [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
+    
 }
 #pragma mark - UITableViewDataSource
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -48,6 +51,7 @@
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIndentifier];
     
     NSDictionary *dic = self.dataArray[indexPath.row];
